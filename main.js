@@ -29,6 +29,8 @@ function showLyricsReport(lyrics){
     var dataIndex = lyrics.data;
     //console.log(dataIndex);
 
+    document.getElementById('display-content').style.display="block";
+
     for(let i = 0; i < dataIndex.length; i++){
         if(i == 10){
             break;
