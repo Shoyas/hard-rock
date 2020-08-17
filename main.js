@@ -450,6 +450,8 @@ function songLyrics9(titleArtist){
 
 }
 
+// Function calling for lyrics
+
 function songLyricsProperty0(lyricsSong){
 
     console.log(lyricsSong);
