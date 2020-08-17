@@ -9,7 +9,7 @@ document.getElementById("search-button").addEventListener("click", (event) => {
 // Api linking
 
 const lyricsApi = {
-    baseUrl : "https://api.lyrics.ovh/suggest",
+    baseUrl : "http://api.lyrics.ovh/suggest",
     subUrl : "http://api.lyrics.ovh/v1/",   
 }
 
