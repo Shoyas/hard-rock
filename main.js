@@ -10,7 +10,7 @@ document.getElementById("search-button").addEventListener("click", (event) => {
 
 const lyricsApi = {
     baseUrl : "https://api.lyrics.ovh/suggest",
-    subUrl : "https://api.lyrics.ovh/v1/",   
+    subUrl : "http://api.lyrics.ovh/v1/",   
 }
 
 // fetch for finding song name
